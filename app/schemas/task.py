@@ -10,3 +10,5 @@ class TaskOut(TaskCreate):
     id: int
     user_id: int
     status: bool
+    priority: int
+    category: str
